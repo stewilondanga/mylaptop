@@ -482,13 +482,12 @@ input#like:checked~#laptop #like-notification {
   font-weight: 600;
 }
 
-/*
 .containers {
   width: 520px;
   margin: 20px auto;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
