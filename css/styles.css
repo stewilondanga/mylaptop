@@ -375,12 +375,12 @@ input#like:checked~#laptop #like-notification {
   background-color: rgba(0, 188, 213, 0.65);
 }
 
-/*.cube__face--bottom>div:last-child {
+.cube__face--bottom>div:last-child {
   overflow: hidden;
   background-color: #00DDFB;
 }
 
-.cube__face--bottom>div:last-child:after {
+/*.cube__face--bottom>div:last-child:after {
   content: '';
   display: block;
   position: absolute;
