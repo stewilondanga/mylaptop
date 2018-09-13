@@ -1,4 +1,23 @@
-/*body {
+:root {
+  --rotate-x: 350deg;
+  --rotate-y: 30deg;
+}
+
+/*@keyframes rotate-notifications {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #EBEBEB;
+}
+
+body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,24 +40,6 @@
   height: 1.5em;
 }
 
-:root {
-  --rotate-x: 350deg;
-  --rotate-y: 30deg;
-}
-
-@keyframes rotate-notifications {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
-html, body {
-  margin: 0;
-  height: 100%;
-  background-color: #EBEBEB;
-}
 
 #instructions {
   font-family: system-ui;
@@ -60,11 +61,14 @@ html, body {
   margin-bottom: 1rem;
   -webkit-appearance: none;
   /* Hides the slider so that custom slider can be made */
-  /*width: 100%;
+
+/*width: 100%;
   /* Specific width is required for Firefox. */
+
 /*  background: transparent;
   /* Otherwise white in Chrome */
-  /*opacity: 0.5;
+
+/*opacity: 0.5;
   transition: 0.2s;
 }
 input[type=range]::-webkit-slider-thumb {
@@ -73,13 +77,15 @@ input[type=range]::-webkit-slider-thumb {
 input[type=range]:focus, input[type=range]:hover {
   outline: none;
   /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
-  /*opacity: 1;
+
+/*opacity: 1;
 }
 input[type=range]::-ms-track {
   width: 100%;
   cursor: pointer;
   /* Hides the slider so custom styles can be added */
-  /*background: transparent;
+
+/*background: transparent;
   border-color: transparent;
   color: transparent;
 }
@@ -93,7 +99,9 @@ input[type=range]::-webkit-slider-thumb {
   box-shadow: 0 0 0 3px #00DDFB, 0 0 2px 5px rgba(0, 0, 0, 0.5);
   margin-top: -0.15rem;
   /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+
 }
+
 /*input[type=range]::-moz-range-thumb {
   height: 0.8rem;
   width: 0.8rem;
