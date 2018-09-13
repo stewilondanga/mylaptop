@@ -40,12 +40,12 @@ html, body {
   text-align: center;
 }
 
-/*#instructions .red {
+#instructions .red {
   color: #FF4852;
   font-weight: 600;
 }
 
-#laptop, .cube, .cube__face {
+/*#laptop, .cube, .cube__face {
   width: 15rem;
   height: 10rem;
 }
