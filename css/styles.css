@@ -478,7 +478,7 @@ input#like:checked~#laptop #like-notification {
   letter-spacing: 0.5px;
 }
 
-/*#sliders label span:not(:first-child) {
+#sliders label span:not(:first-child) {
   font-weight: 600;
 }
 
