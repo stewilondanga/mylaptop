@@ -156,7 +156,7 @@ input#like:checked~#laptop #like-notification {
   transition: opacity 0.15s 0s, top 0.1s 0.1s;
 }
 
-/*#like-notification:after {
+#like-notification:after {
   content: '';
   display: block;
   position: absolute;
@@ -168,7 +168,7 @@ input#like:checked~#laptop #like-notification {
   border-top: 0.5rem solid #FF4852;
 }
 
-#laptop {
+/*#laptop {
   display: block;
   perspective: 400px;
   position: relative;
