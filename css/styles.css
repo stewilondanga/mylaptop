@@ -197,10 +197,10 @@ input#like:checked~#laptop #like-notification {
   outline-color: transparent;
 }
 
-/*.cube__face--back:hover, .cube__face--back:focus {
+.cube__face--back:hover, .cube__face--back:focus {
   outline-color: black;
 }
-.cube__face--back:hover {
+/*.cube__face--back:hover {
   cursor: pointer;
 }
 .cube__face--back > div {
