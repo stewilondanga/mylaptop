@@ -399,7 +399,7 @@ input#like:checked~#laptop #like-notification {
   position: absolute;
 }
 
-/*#keyboard {
+#keyboard {
   width: 12rem;
   height: 4rem;
   bottom: 1rem;
@@ -412,7 +412,7 @@ input#like:checked~#laptop #like-notification {
   grid-gap: 4px;
 }
 
-#keyboard .key {
+/*#keyboard .key {
   background-color: #00DDFB;
   border-radius: 5px;
   position: relative;
