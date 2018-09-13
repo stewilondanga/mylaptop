@@ -33,13 +33,14 @@ html, body {
   height: 1.5em;
 }
 
-/*#instructions {
+#instructions {
   font-family: system-ui;
   position: absolute;
   width: 100%;
   text-align: center;
 }
-#instructions .red {
+
+/*#instructions .red {
   color: #FF4852;
   font-weight: 600;
 }
