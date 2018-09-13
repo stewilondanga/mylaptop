@@ -56,7 +56,7 @@ input[type=range] {
   /* Hides the slider so that custom slider can be made */
   width: 100%;
   /* Specific width is required for Firefox. */
-  /*  background: transparent;
+  background: transparent;
   /* Otherwise white in Chrome */
   /*opacity: 0.5;
   transition: 0.2s;
