@@ -380,7 +380,7 @@ input#like:checked~#laptop #like-notification {
   background-color: #00DDFB;
 }
 
-/*.cube__face--bottom>div:last-child:after {
+.cube__face--bottom>div:last-child:after {
   content: '';
   display: block;
   position: absolute;
@@ -394,7 +394,7 @@ input#like:checked~#laptop #like-notification {
   border-radius: 5px;
 }
 
-#keyboard, #trackpad {
+/*#keyboard, #trackpad {
   background-color: #FF4852;
   position: absolute;
 }
