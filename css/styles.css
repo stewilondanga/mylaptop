@@ -365,12 +365,12 @@ input#like:checked~#laptop #like-notification {
   background-color: rgba(0, 188, 213, 0.65);
 }
 
-/*.cube__face--bottom>div:nth-child(14) {
+.cube__face--bottom>div:nth-child(14) {
   transform: translateZ(-6.5px);
   background-color: rgba(0, 188, 213, 0.65);
 }
 
-.cube__face--bottom>div:nth-child(15) {
+/*.cube__face--bottom>div:nth-child(15) {
   transform: translateZ(-7px);
   background-color: rgba(0, 188, 213, 0.65);
 }
