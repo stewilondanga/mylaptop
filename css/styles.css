@@ -184,12 +184,12 @@ input#like:checked~#laptop #like-notification {
   transition: 0.2s;
 }
 
-/*.cube__face {
+.cube__face {
   position: absolute;
   transform-style: preserve-3d;
 }
 
-.cube__face--back {
+/*.cube__face--back {
   transform: rotateY(180deg) translateZ(5rem);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
