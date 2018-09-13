@@ -445,7 +445,7 @@ input#like:checked~#laptop #like-notification {
   box-shadow: 2px 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/*#trackpad {
+#trackpad {
   top: 0.5rem;
   left: 50%;
   transform: translateX(-50%);
@@ -454,7 +454,7 @@ input#like:checked~#laptop #like-notification {
   border-radius: 5px;
 }
 
-#trackpad:hover, #trackpad:focus {
+/*#trackpad:hover, #trackpad:focus {
   outline-color: black;
 }
 
