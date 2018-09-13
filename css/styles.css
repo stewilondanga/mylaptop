@@ -69,13 +69,15 @@ input[type=range]::-webkit-slider-thumb {
 input[type=range]:focus, input[type=range]:hover {
   outline: none;
   /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
-  /*opacity: 1;
+  opacity: 1;
 }
-input[type=range]::-ms-track {
+
+/*input[type=range]::-ms-track {
   width: 100%;
   cursor: pointer;
   /* Hides the slider so custom styles can be added */
-  /*background: transparent;
+
+/*background: transparent;
   border-color: transparent;
   color: transparent;
 }
@@ -89,6 +91,7 @@ input[type=range]::-webkit-slider-thumb {
   box-shadow: 0 0 0 3px #00DDFB, 0 0 2px 5px rgba(0, 0, 0, 0.5);
   margin-top: -0.15rem;
   /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+
 }
 
 /*input[type=range]::-moz-range-thumb {
