@@ -462,14 +462,14 @@ input#like:checked~#laptop #like-notification {
   cursor: pointer;
 }
 
-/*#sliders {
+#sliders {
   position: absolute;
   width: 10rem;
   right: 1.5rem;
   top: 1rem;
 }
 
-#sliders label {
+/*#sliders label {
   font-family: system-ui;
   font-size: 0.9rem;
   display: block;
