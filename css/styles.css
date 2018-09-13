@@ -121,10 +121,11 @@ input[type=range]::-webkit-slider-runnable-track {
   border: 1px solid #b33239;
 }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
   display: none;
 }
-input#laptop-toggle:checked + #laptop .cube__face--back {
+
+/*input#laptop-toggle:checked + #laptop .cube__face--back {
   transform-origin: 50% 100%;
   transform: rotateY(180deg) rotateX(90deg) translateY(5rem);
   z-index: 10;
