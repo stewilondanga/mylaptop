@@ -418,11 +418,11 @@ input#like:checked~#laptop #like-notification {
   position: relative;
 }
 
-/*#keyboard .key:last-child {
+#keyboard .key:last-child {
   grid-column: 3/9;
 }
 
-#keyboard .key:after {
+/*#keyboard .key:after {
   content: '';
   display: block;
   position: absolute;
