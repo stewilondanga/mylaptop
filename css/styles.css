@@ -492,7 +492,7 @@ input#like:checked~#laptop #like-notification {
   font-weight: normal;
   text-align: center;
   color: #c0c0c0;
-  padding-top: 50px;
+  padding-top: 150px;
   padding-bottom: 10px;
   width: 375px;
   margin: 0 auto;
