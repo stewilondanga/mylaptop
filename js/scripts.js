@@ -1,13 +1,13 @@
 var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-window.onload = function(){
+/*window.onload = function(){
   ['x', 'y'].forEach(function(axis){
     var axis_value = getComputedStyle(document.documentElement).getPropertyValue(`--rotate-${axis}`);
     document.getElementById(`${axis}-deg`).innerText = axis_value;
