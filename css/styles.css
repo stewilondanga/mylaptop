@@ -111,7 +111,7 @@ input[type=range]::-ms-thumb {
   box-shadow: 0 0 0 3px #00DDFB, 0 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/*input[type=range]::-webkit-slider-runnable-track {
+input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 0.6rem;
   cursor: pointer;
@@ -120,7 +120,8 @@ input[type=range]::-ms-thumb {
   box-shadow: 2px 1px 3px 0 rgba(0, 0, 0, 0.7) inset;
   border: 1px solid #b33239;
 }
-input[type="checkbox"] {
+
+/*input[type="checkbox"] {
   display: none;
 }
 input#laptop-toggle:checked + #laptop .cube__face--back {
