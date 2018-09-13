@@ -458,11 +458,11 @@ input#like:checked~#laptop #like-notification {
   outline-color: black;
 }
 
-/*#trackpad:hover {
+#trackpad:hover {
   cursor: pointer;
 }
 
-#sliders {
+/*#sliders {
   position: absolute;
   width: 10rem;
   right: 1.5rem;
