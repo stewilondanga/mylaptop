@@ -3,7 +3,7 @@
   --rotate-y: 30deg;
 }
 
-/*@keyframes rotate-notifications {
+@keyframes rotate-notifications {
   0% {
     transform: rotateY(0deg);
   }
@@ -11,7 +11,8 @@
     transform: rotateY(360deg);
   }
 }
-html, body {
+
+/*html, body {
   margin: 0;
   height: 100%;
   background-color: #EBEBEB;
