@@ -45,7 +45,7 @@ html, body {
   font-weight: 600;
 }
 
-/*#laptop, .cube, .cube__face {
+#laptop, .cube, .cube__face {
   width: 15rem;
   height: 10rem;
 }
