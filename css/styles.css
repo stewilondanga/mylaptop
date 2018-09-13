@@ -454,11 +454,11 @@ input#like:checked~#laptop #like-notification {
   border-radius: 5px;
 }
 
-/*#trackpad:hover, #trackpad:focus {
+#trackpad:hover, #trackpad:focus {
   outline-color: black;
 }
 
-#trackpad:hover {
+/*#trackpad:hover {
   cursor: pointer;
 }
 
