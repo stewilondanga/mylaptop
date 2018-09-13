@@ -294,13 +294,14 @@ input#like:checked~#laptop #like-notification {
   z-index: -1;
 }
 
-/*.cube__face--bottom {
+.cube__face--bottom {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #00DDFB;
   transform: rotateX(-90deg) translateZ(5rem);
 }
-.cube__face--bottom > div {
+
+/*.cube__face--bottom > div {
   background-color: #00DDFB;
   height: 100%;
   width: 100%;
