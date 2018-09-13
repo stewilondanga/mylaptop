@@ -177,14 +177,14 @@ input#like:checked~#laptop #like-notification {
   transform: translate3d(-50%, -50%, 0);
 }
 
-/*.cube {
+.cube {
   position: relative;
   transform-style: preserve-3d;
   transform: translateZ(-7.5rem) rotateX(var(--rotate-x)) rotateY(var(--rotate-y));
   transition: 0.2s;
 }
 
-.cube__face {
+/*.cube__face {
   position: absolute;
   transform-style: preserve-3d;
 }
