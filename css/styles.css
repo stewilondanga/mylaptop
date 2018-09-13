@@ -412,13 +412,13 @@ input#like:checked~#laptop #like-notification {
   grid-gap: 4px;
 }
 
-/*#keyboard .key {
+#keyboard .key {
   background-color: #00DDFB;
   border-radius: 5px;
   position: relative;
 }
 
-#keyboard .key:last-child {
+/*#keyboard .key:last-child {
   grid-column: 3/9;
 }
 
