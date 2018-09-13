@@ -265,11 +265,12 @@ input#like:checked~#laptop #like-notification {
   background-color: rgba(0, 188, 213, 0.65);
 }
 
-/*.cube__face--back > div:nth-child(13) {
+.cube__face--back>div:nth-child(13) {
   transform: translateZ(6px);
   background-color: rgba(0, 188, 213, 0.65);
 }
-.cube__face--back > div:nth-child(14) {
+
+/*.cube__face--back > div:nth-child(14) {
   transform: translateZ(6.5px);
   background-color: rgba(0, 188, 213, 0.65);
 }
