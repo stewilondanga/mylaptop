@@ -310,12 +310,12 @@ input#like:checked~#laptop #like-notification {
   left: 0;
 }
 
-/*.cube__face--bottom>div:nth-child(3) {
+.cube__face--bottom>div:nth-child(3) {
   transform: translateZ(-1px);
   background-color: rgba(0, 188, 213, 0.65);
 }
 
-.cube__face--bottom>div:nth-child(4) {
+/*.cube__face--bottom>div:nth-child(4) {
   transform: translateZ(-1.5px);
   background-color: rgba(0, 188, 213, 0.65);
 }
