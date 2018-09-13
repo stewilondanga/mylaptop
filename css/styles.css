@@ -131,7 +131,7 @@ input#laptop-toggle:checked+#laptop .cube__face--back {
   z-index: 10;
 }
 
-/*input#like:checked ~ #laptop #like-notification {
+input#like:checked~#laptop #like-notification {
   transition: opacity 0.1s 0.4s, top 0.3s 0.3s;
   opacity: 1;
   top: -3.25rem;
@@ -139,7 +139,7 @@ input#laptop-toggle:checked+#laptop .cube__face--back {
   animation-delay: 1s;
 }
 
-#like-notification {
+/*#like-notification {
   position: absolute;
   width: 4rem;
   height: 2rem;
