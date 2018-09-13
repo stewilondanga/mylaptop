@@ -422,7 +422,7 @@ input#like:checked~#laptop #like-notification {
   grid-column: 3/9;
 }
 
-/*#keyboard .key:after {
+#keyboard .key:after {
   content: '';
   display: block;
   position: absolute;
@@ -432,7 +432,7 @@ input#like:checked~#laptop #like-notification {
   height: 100%;
 }
 
-#keyboard .key div {
+/*#keyboard .key div {
   position: absolute;
   top: 0;
   left: 0;
